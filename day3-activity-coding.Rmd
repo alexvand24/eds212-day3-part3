@@ -1,0 +1,25 @@
+---
+title: 'Part 2: Coding practice'
+author: "Alex Vand"
+date: "8/4/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Using the c() function, create and store two new vectors, called vec_a and vec_b, where a=(1,6) and b=(2,4):
+
+vec_a <- c(1, 6)
+vec_b <- c(2, 4)
+
+# Check your by-hand solutions from Part 1 by finding the following in R:
+
+vec_a + vec_b
+vec_b - vec_a
+4 * vec_a
+vec_a %*% vec_b
+```
+
